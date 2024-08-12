@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    background: linear-gradient(to right, #66BB6A, red,yellow);
+}
+
+.container{
+    width:1100px;
+    text-align:center;
+    height:300px;
+    box-shadow: 5px 10px 20px white;
+    margin:80px;
+    padding:10px 20px;
+
+    /* display:flex;
+    flex-direction:column;
+    justify-content: evenly; */
+}
+
+h1{
+    padding:20px;
+}
+
+.sub-container{
+    margin-top:10px;
+    border:1px solid black;
+    /* border-radius:10px; */
+    display:flex;
+    text-align:center;
+    padding:5px;
+    justify-content: space-between;
+}
+
+#year-id{
+    font-size:30px;
+    font-weight:semibold;
+    padding:10px 65px;
+    margin-bottom:14px;
+    border:1px solid black;
+    border-radius: 6px;
+    background: linear-gradient(to right, #66BB6A, red,yellow);
+}
+
+#hour-id,#min-id,#sec-id{
+    font-size:30px;
+    padding:0 7px;
+    width:70px;
+    height:60px;
+    padding-top:30px;
+    border:1px solid black;
+    background: linear-gradient(to right, #66BB6A, #2E7D32);
+}
